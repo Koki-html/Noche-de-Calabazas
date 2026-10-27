@@ -152,6 +152,8 @@ PlayerSettings:
   bundleVersion: 0.1
   preloadedAssets:
   - {fileID: -944628639613478452, guid: 289c1b55c9541489481df5cc06664110, type: 3}
+  - {fileID: 9189109266492022190, guid: 0810845596f705b488d36eaadb579eae, type: 2}
+  - {fileID: 6442532482596170781, guid: b82081d61f53a0e498d6c6a0022de344, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   xboxOneDisableKinectGpuReservation: 1

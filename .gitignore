@@ -1,0 +1,9 @@
+/Library/
+/Logs/
+/Temp/
+/UserSettings/
+/.vscode/
+/Builds/
+/obj/
+/.utmp/
+

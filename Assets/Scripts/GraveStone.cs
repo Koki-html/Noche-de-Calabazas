@@ -4,6 +4,8 @@ public class GraveStone : MonoBehaviour
 {
     public Transform player;
     public Transform destination;
+    public ScreenFadeVR screenFadeVR;
+    
 
     public void OnPointerClick()
     {
@@ -12,11 +14,18 @@ public class GraveStone : MonoBehaviour
             return;
         }
 
-        if (player == null || destination == null)
+        if (player == null || destination == null || screenFadeVR == null)
         {
             return;
         }
 
+        StartCoroutine(MoverConTransicion());
+    }
+
+    private System.Collections.IEnumerator MoverConTransicion()
+    {
+        yield return screenFadeVR.CerrarYEsperar();
         player.position = destination.position;
+        yield return screenFadeVR.AbrirYEsperar();
     }
 }

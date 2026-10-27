@@ -38,7 +38,7 @@ Cuando las tres calabazas están encendidas, `GraveStonePortal` permite transpor
 
 ### Flujo del recorrido
 
-1. Iniciar la experiencia en la escena `FirstScene`.
+1. Iniciar la experiencia en la escena `Graveyard`.
 2. Observar el entorno mediante el visor de realidad virtual.
 3. Apuntar la mirada hacia `Pumpkin_Torch_1`, `Pumpkin_Torch_2` y `Pumpkin_Torch_3`.
 4. Mantener la mirada hasta completar la barra de permanencia de cada objeto.
@@ -97,3 +97,7 @@ IA Artificial generativa (Github Copilot) fue usada en este proyecto, principalm
 - **Fecha de prueba:** 27-10-2026
 - **Observaciones:** Es complejo usar los canvas, se rompen por todo.
 
+## Errores Conocidos
+
+- No Funciona el Autoclicker
+- No Hay transición en los TPs.
